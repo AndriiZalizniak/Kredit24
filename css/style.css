@@ -42,6 +42,7 @@ body{
                 align-items: center;
                 font-family: 'Roboto Bold', sans-serif;
                 font-size: 18px;
+                
             }
                 .man{
                     position: relative;
@@ -65,18 +66,72 @@ body{
                     transform: rotate(135deg);
                     margin: 0;
             }
-            h1{
+            .head-title{
                 position: relative;
                 margin-top: -350px;
                 font-family: 'Roboto Bold', sans-serif;
                 font-size: 48px;
+                font-weight: 600;
                 line-height: 54px;
                 color: #2C3E50;
             }
-            h2{
+            .head-subtitle{
                 font-family: 'Roboto Light', sans-serif;
                 font-size: 18px;
                 line-height: 24px;
                 color: #2C3E50;
             }
+    main{
+        max-width: 980px;
+        margin: 0 auto;
+        
+    }
+    /*Место для калькулятора*/
+        .main-title{
+            position: relative;
+            left: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 100px 0 0 0;
+            font-family: 'Roboto Bold', sans-serif;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 48px;
+            
+            color: #2980B9;
+        }
+        .img-table{
+            margin:  25px 60px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        .main-content{
+            display: flex;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #BDC3C7;
+        }
+            .b-content{
+                width: 33.3%;
+            }
+                .section-title{
+                    margin: 25px 0;
+                    font-family: Roboto, sans-serif;
+                    font-size: 22px;
+                    font-weight: 500;
+                    line-height: 26.4px;
+                    text-align: center;
+                    color: #34495E;
+                }
+                .section-text{
+                    margin: 0 20px;
+                    text-align: center;
+                    font-family: Roboto, sans-serif;
+                    font-size: 15px;
+                    
+                    line-height: 22px;
+                    color: #34495E;
+                }
     
