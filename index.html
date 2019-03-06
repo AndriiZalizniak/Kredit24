@@ -6,119 +6,120 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="images/icon.png" type="image/icon">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,600,700" rel="stylesheet">
     <title>Kredit24</title>
 </head>
 <body>
     <header>
-        <article class="head">
-            <a href="#" class="logo"></a>
-            <figure class="image-logo">
-                <img src="images/background_logo.png" alt="Kredit24">
-            </figure>
-            <a href="#" class="button-login" >
-                <p class="man"></p>
-                <p class="man2"></p>Login
-            </a>
+        <section class="head">
+            <div class="wrap">
+                <a href="#" class="logo"></a>
+                <a href="#" class="button-login">Login</a>
+            </div>
             <h1 class="head-title">Need Money Fast?</h1>
-            <h2 class="head-subtitle">Get up to Rp. 2 000 000 within just 1 hour!</h2>
-        </article>
+            <p class="head-subtitle">Get up to Rp. 2 000 000 within just 1 hour!</p>
+        </section>
     </header>
     <main>
-        <article>
+        <section class="wrap-calc">
             <section class="calc">
-                <div class="calc-range">
-                    <p class="calc-range-amount">Pick Amount</p>
-                    <p class="range-currency">Rp.</p>
+                <div class="range-part">
+                    <p class="range-title amount">Pick Amount</p>
+                    <p class="range-subtitle">Rp. 1 500 000</p>
                     <div class="range-value">
                         <p>1000000</p>
                         <p>2000000</p>
                     </div>
                     <input type="range" min="1000000" max="2000000" step="10000">
-                    
-                    <p class="calc-range-term">Credit term</p>
-                    <p class="range-data">days</p>
-                    <div class="range-term">
+                    <p class="range-title term">Credit term</p>
+                    <p class="range-subtitle">20 days</p>
+                    <div class="range-value">
                         <p>10</p>
                         <p>30</p>
                     </div>
                     <input type="range">
                 </div>
-                <div class="calc-summary">
-                    <p class="calc-summary_description">Loan Summary</p>
-                    <p class="calc-summary_credit">Loan Amount</p>
-                    <p class="calc-summary_service">Service Fee</p>
-                    <p class="calc-summary_payments">Total Payments</p>
-                    <p class="calc-summary_date">Due Date</p>
-                    <a href="#" class="calc-summary_button">Get money</a>
+
+                <div class="summary-part">
+                    <p class="summary-item description">Loan Summary</p>
+                    <p class="summary-item credit">Loan Amount</p>
+                    <p class="summary-item service">Service Fee</p>
+                    <hr>
+                    <p class="summary-item payments">Total Payments</p>
+                    <p class="summary-item date">Due Date</p>
+                    <a href="#" class="button-calc">Get money</a>
                 </div>
             </section>
-        </article>
-        <article>
-            <h1 class="main-title">How it works!</h1>
-            <section class="img-table">
-                <figure><img src="images/pick.png" alt=""></figure>
-                <figure><img src="images/arrow.png" alt=""></figure>
-                <figure><img src="images/review.png" alt=""></figure>
-                <figure><img src="images/arrow.png" alt=""></figure>
-                <figure><img src="images/resolt.png" alt=""></figure>
-            </section>
-            <article class="main-content">
-                <section class="b-content">
-                    <h1 class="section-title">Pick amount and term</h1>
-                    <p class="section-text">Done online; You can apply for a loan anywhere and anytime, 
-                    either from home, from the office, in the mornings or evenings. 
-                    Save your time to worthwhile activities.</p>
+        </section>
+
+        <section>
+            <h2 class="title-item">How it works!</h2>
+            <ul class="list-block">
+                <li>
+                    <ul class="block-item">
+                        <li class="list-img pick"></li>
+                        <li class="list-title">Pick amount and term</li>
+                        <li class="list-text">Done online; You can apply for a loan anywhere and anytime, 
+                            either from home, from the office, in the mornings or evenings. 
+                            Save your time to worthwhile activities.</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="block-item">
+                        <li class="list-img review"></li>
+                        <li class="list-title">We review quote in 4 hours</li>
+                        <li class="list-text">If your loan application is approved, 
+                            we transfer directly into your account within the same day.</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="block-item">
+                        <li class="list-img resolt"></li>
+                        <li class="list-title">Get money</li>
+                        <li class="list-text">You can find out all the fees charged from the start you apply for a loan, 
+                            and you have the flexibility to set the period and cost of the service adapts 
+                            to the period of the loan. The faster, the smaller the service fees paid.</li>
+                    </ul>
+                </li>
+            </ul>
+            
+        <section class="faq">
+            <hr>    
+            <h2 class="title-item ">Frequently Asked Questions</h2>
+                <section class="ac-container">
+                    <div>
+                        <input id="ac-1" name="accordion" type="checkbox"/>
+                        <label for="ac-1">What are the requirements to apply for a loan in Kredit24?</label>
+                        <article>
+                            <p>text </p>
+                        </article>
+                    </div>
+                    <div>
+                        <input id="ac-2" name="accordion" type="checkbox" />
+                        <label for="ac-2">How much loan amount can be submitted?</label>
+                        <article>
+                            <p>Loans that can be raised is a minimum of Rp. 1 000 000 up to a maximum of Rp. 2 000 000. If you are a good customer, for a loan to the 3rd and so on, you can apply for loans up to Rp. 3 000 000.</p>
+                        </article>
+                    </div>
+                    <div>
+                        <input id="ac-3" name="accordion" type="checkbox" />
+                        <label for="ac-3">How do I apply for a loan?</label>
+                        <article>
+                            <p>text</p>
+                        </article>
+                    </div>
+                    <div>
+                        <input id="ac-4" name="accordion" type="checkbox" />
+                        <label for="ac-4">How does the system of repayment?</label>
+                        <article>
+                            <p>text</p>
+                        </article>
+                    </div>
                 </section>
-                <section class="b-content">
-                    <h1 class="section-title">We review quote in 4 hours</h1>
-                    <p class="section-text">If your loan application is approved, 
-                    we transfer directly into your account within the same day.</p>
-                </section>
-                <section class="b-content">
-                    <h1 class="section-title">Get money!</h1>
-                    <p class="section-text">You can find out all the fees charged from the start you apply for a loan, 
-                    and you have the flexibility to set the period and cost of the service adapts 
-                    to the period of the loan. The faster, the smaller the service fees paid.</p>
-                </section>
-            </article>
-        </article>
-        <article>
-        <h1 class="faq-title">Frequently Asked Questions</h1>
-        <section class="ac-container">
-                <div>
-                    <input id="ac-1" name="accordion" type="checkbox"/>
-                    <label for="ac-1">What are the requirements to apply for a loan in Kredit24?</label>
-                    <article>
-                        <p>text </p>
-                    </article>
-                </div>
-                <div>
-                    <input id="ac-2" name="accordion" type="checkbox" />
-                    <label for="ac-2">How much loan amount can be submitted?</label>
-                    <article>
-                        <p>Loans that can be raised is a minimum of Rp. 1 000 000 up to a maximum of Rp. 2 000 000. If you are a good customer, for a loan to the 3rd and so on, you can apply for loans up to Rp. 3 000 000.</p>
-                    </article>
-                </div>
-                <div>
-                    <input id="ac-3" name="accordion" type="checkbox" />
-                    <label for="ac-3">How do I apply for a loan?</label>
-                    <article>
-                        <p>text</p>
-                    </article>
-                </div>
-                <div>
-                    <input id="ac-4" name="accordion" type="checkbox" />
-                    <label for="ac-4">How does the system of repayment?</label>
-                    <article>
-                        <p>text</p>
-                    </article>
-                </div>
-            </section>
-        </article>    
+        </section>   
     </main>
-    <footer>    
-            <a class="copy" href="index.html">2017 &copy; kredit24-7.com</a>
+    <footer>
+        <a class="copy" href="index.html">2017 &copy; kredit24-7.com</a>
     </footer>
 </body>
 </html>
