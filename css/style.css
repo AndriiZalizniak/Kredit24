@@ -225,6 +225,7 @@ body{
         .info-block{
             position: relative;
             top: -60px;
+            margin-bottom: -40px;
         }
             .title-item{
                 margin: 50px 0;
@@ -235,15 +236,26 @@ body{
             }
             .list-block{
                 margin: 0 auto;
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
+                display: flex;
                 max-width: 1180px;
                 color: #34495E;
+            }
+            @media (max-width: 800px){
+                .list-block{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
             }
                 .block-item{
                     margin: 0 2%;
                     width: 361px; 
                     text-align: center;
+                }
+                @media (max-width: 800px){
+                    .block-item{
+                        margin: 0 auto 35px;
+                        
+                    }
                 }
                 /* стрелки между блоками
                 .block-item::after{ 
